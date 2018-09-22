@@ -4,7 +4,7 @@ def say_hello(name)
   if name.null? 
     puts "Hello Ruby Programmer!"
   else 
-    puts "Hello " + name 
+    puts "Hello " + name + '!'
   end 
 end 
 
